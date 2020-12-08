@@ -1,0 +1,48 @@
+.imgPersonaje{
+    height: 250px;
+}
+
+h1{
+   text-align: center;
+}
+.contenedorImagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btnJugar {
+    font-size: large;
+    padding: 5px;
+}
+.pregunta {
+    display: flex;
+   /* background-color: blanchedalmond;*/
+    padding: 5px;
+}
+
+.contenedorPreguntas{
+    width: 600px;
+    margin: auto;
+    background-color: rgb(237, 100, 157);
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.ico{
+    height: 25px;
+}
+
+.divRespuesta {
+    margin: 5px;
+}
+.divPregunta {
+    margin: 5px;
+}
